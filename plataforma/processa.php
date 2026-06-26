@@ -16,7 +16,7 @@ $email = $_POST["email"];
 $telefone = $_POST["telefone"];
 
 $sql = "INSERT INTO pessoas(nome,email,telefone)
-        VALUES('$nome','$email','$telefone')";
+        VALUES('$nome','$email','$telefone')"
 
 ?>
 
